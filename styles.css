@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+main{
+    border: 2px solid red;
+    /* display: flex; */
+    height: 100%;
+
+}
+
+.genLayout{
+    /* margin-left: 3rem; */
+    border: 2px solid green;
+}
+
+.genLayout1{
+    /* margin-bottom: 10rem; */
+    border: 2px solid red;
+    /* margin-right: 2rem; */
+    /* width: 500px; */
+    /* display: flex; */
+    /* height: 300px; */
+}
+
+.genLayout1 > a{
+    text-decoration: none;
+    /* margin-right: 2.2rem; */
+}
+
+
+.box{
+    display: flex;
+    /* border: 2px solid blue; */
+    background-color: rgba(2, 68, 0);
+    height: 200px;
+}
+
+ .bigBox{
+    border: 2px solid red;
+    /* display: flex; */
+    height: 1000px;
+
+    /* width: 200px;
+    height: 200px; */
+    /* padding-top: 6rem; */
+}
+
+.biggBox{
+    /* border: 2px solid blue; */
+    height: 300px;
+    display: flex;
+}
+
+.reach1{
+    /* border: 2px solid blue; */
+    background-color: blanchedalmond;
+    width: 350px;
+    border-radius: 5px;
+    height: 250px;
+    margin-right: -2rem;
+    /* display: block;
+    justify-content: center;
+    align-items: center; */
+}
+.reach2{
+    /* border: 2px solid blue; */
+    background-color: blanchedalmond;
+    width: 350px;
+    border-radius: 5px;
+    height: 250px;
+    margin-right: -2rem;
+    
+    /* display: block;
+    justify-content: center;
+    align-items: center; */
+}
+.reach3{
+    /* border: 2px solid blue; */
+    background-color: blanchedalmond;
+    width: 350px;
+    border-radius: 5px;
+    height: 250px;
+    /* display: block;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .reach > img{
+    border: 2px solid green; 
+    height: 5.8rem;
+     border-radius: 70%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    background-color: black;
+}  */
+
+.image{
+    /* border: 2px solid brown; */
+    margin-top: 3rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: pink;
+
+}
+
+.image > img{
+    width: 60px;
+    height: 40px;
+    margin-left: 1.2rem;
+    margin-top: 1.8rem;
+}
+.reach1 >h4{
+    font-size: small;
+    margin-left: 9rem;
+
+}
+
+.reach1 > p{
+    font-size: small;
+    margin-left: 5rem;
+}
+.reach2 >h4{
+    font-size: small;
+    margin-left: 8rem;
+
+}
+
+.reach2 > p{
+    font-size: small;
+    margin-left: 6rem;
+}
+.reach3 >h4{
+    font-size: small;
+    margin-left: 8rem;
+
+}
+
+.reach3 > p{
+    font-size: small;
+    margin-left: 5rem;
+}
+
+.page{
+    /* border: 2px solid green; */
+}
+
+.page > h1{
+    margin-left: 3.5rem;
+}
+
+.pages{
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+
+.actiVities1{
+    border: 2px solid #eee;
+    border-radius: 5%;
+    display: flex;
+    width: 450px;
+    margin-left: 3.4rem;
+}
+
+.recent1{
+    /* border: 2px solid purple; */
+    /* border-radius: 5%; */
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.recent1 > h3{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.recent1 > p{
+    margin-left: 1rem;
+}
+
+.recent1 > button{
+    border: 2px solid green;
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: white;
+    margin-left: 1rem;
+}
+
+.pic1{
+    /* border: 2px solid blue; */
+    border-radius: 5%;
+    height: 300px;
+}
+
+.pic1 > img{
+    height: 300px;
+    border-top-right-radius: 5%;
+}
+.actiVities2{
+    border: 2px solid #eee;
+    border-radius: 5%;
+    display: flex;
+    width: 450px;
+    margin-right: .1rem;
+}
+
+.recent2{
+    /* border: 2px solid purple; */
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.recent2 > h3{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.recent2 > p{
+    margin-left: 1rem;
+}
+
+.recent2 > button{
+    border: 2px solid green;
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: white;
+    margin-left: 1rem;
+}
+
+.pic2{
+    /* border: 2px solid blue; */
+    border-radius: 5%;
+    height: 300px;
+}
+
+.pic2 > img{
+    height: 300px;
+    border-radius: 5%;
+}
+.actiVities3{
+    border: 2px solid #eee;
+    border-radius: 5%;
+    display: flex;
+    width: 230px;
+    margin-right: 3rem;
+}
+
+.recent3{
+    /* border: 2px solid purple; */
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.recent3 > h3{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.recent3 > p{
+    margin-left: 1rem;
+}
+
+.recent3 > button{
+    border: 2px solid green;
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: white;
+    margin-left: 1rem;
+}
+
+.pic3{
+    /* border: 2px solid blue; */
+    border-radius: 5%;
+    height: 300px;
+}
+
+/* .pic3 > img{
+    height: 300px;
+} */
+
+
+.Dad{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 200px;
+}
+
+.up{
+    margin-left: 3rem;
+}
+
+
+
+.mum{
+    border: 2px solid #eee;
+    border-radius: 5%;
+    width: 500px;
+    margin-bottom: 5rem;
+    margin-left: 3.5rem;
+    height: 120px;
+}
+.don{
+    /* border: 2px solid gray; */
+    border-radius: 4%;
+    margin-left: .5rem;
+    background-color: green;
+    height: 50px;
+    width: 480px;
+    margin-top: .5rem;
+}
+
+.date{
+    /* border: 2px solid brown; */
+    margin-left: .5rem;
+}
+
+.donaTion{
+    /* border: 2px solid green; */
+    margin-bottom: 5rem;
+    margin-right: 7rem;
+}
+
+..donaTion > h4{
+    font-weight: 700;
+}
+
+.donaTion > p{
+    font-size: smaller;
+    opacity: .4;
+}
